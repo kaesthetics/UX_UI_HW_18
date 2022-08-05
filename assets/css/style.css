@@ -1,0 +1,49 @@
+body{
+    
+    margin: auto; 
+    display:flex; 
+    flex-direction: column; 
+    align-content: center; 
+    text-align: center; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+nav{
+    display: flex; 
+    justify-content: center;
+}  
+
+.margin {
+    margin: 15px; 
+} 
+
+button {
+    width: 220px; 
+    height: 40px;  
+    background-color: pink; 
+    border-style:none; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 18px;
+} 
+ 
+.largeimage {
+    width: 600px; 
+    height: 800px;  
+} 
+
+.card {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+} 
+
+@media screen and (max-width: 500px) { 
+    .mobile {
+        width:300px; 
+        height: auto; 
+    }
+
+    
+}
